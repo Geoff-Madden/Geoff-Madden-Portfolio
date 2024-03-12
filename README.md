@@ -24,7 +24,21 @@ Updating values and adding columns
 
 ANALYSIS OF A VEHICLE DATASET
 
+Dataset manipulation
 
+Create functions
+
+Column selection, row selection and masks
+
+Combining filtering and indexing
+
+String matching
+
+Sorting
+
+Modifying column data
+
+Removing columns
 
 ANALYSIS OF FTSE DATA
 
