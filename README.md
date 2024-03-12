@@ -42,11 +42,49 @@ Removing columns
 
 ANALYSIS OF FTSE DATA
 
+Clean the data
+
+Use a function to changes column formats
+
+Use for loops
+
+Cleaning and Moderating a dataset
+
+Removal of superfluous data
+
+Filling missing values
+
 ANALYSIS OF CORONAVIRUS DATA
+
+Concatenation
+
+Joining datasets
+
+Using the pandas .groupby() DataFrame method
+
+Using the pandas .agg() method
 
 ANALYSIS OF ENERGY DATA
 
+Scatter plots
+
+Histograms
+
+Bar charts
+
+Box plots
+
+Pie charts
+
+Modifying plots using matplotlib
+
+Plotting with seaborn
+
 ANALYSIS OF TRAFFIC DATA
+
+Creating plots with Bokeh
+
+Pandas-Bokeh
 
 ANALYSIS OF A PROPERTY DATASET
 
