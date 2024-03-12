@@ -4,8 +4,20 @@ hlriutbgritug sbhrtuibhn rtiuvnh rtigu rhtigvu trhigv ruthbvgirtgubvh rtguigbrnh
 
 ANALYSIS OF A STOCK PRICE DATASET
 
+
+
 fgfgfe ktjhrltigjhr tgihrtgi urhtigv urthg viuwrthgv irtugh rtuigh rtgui hrtgiuwrh tgipu wetrhgv wirjvnhwritguwry ptuigvhwrptuigh wpeirghw rptvguih wriutgbyh wrptguivh wrguihw rtguiphwrtipgurhtgpwiuwrthgp wirughwrtuhg wrtuigh wrtguih wrpetguih wrtuipg hrwt
 
 ANALYSIS OF A VEHICLE DATASET
 
 ANALYSIS OF FTSE DATA
+
+ANALYSIS OF CORONAVIRUS DATA
+
+ANALYSIS OF ENERGY DATA
+
+ANALYSIS OF TRAFFIC DATA
+
+ANALYSIS OF A PROPERTY DATASET
+
+CHOCOLATE RATINGS
