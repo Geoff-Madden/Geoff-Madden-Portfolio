@@ -10,11 +10,16 @@ The purpose was to track incoming prices to update the production costs and keep
 
 ANALYSIS OF A STOCK PRICE DATASET
 
-
-
-fgfgfe ktjhrltigjhr tgihrtgi urhtigv urthg viuwrthgv irtugh rtuigh rtgui hrtgiuwrh tgipu wetrhgv wirjvnhwritguwry ptuigvhwrptuigh wpeirghw rptvguih wriutgbyh wrptguivh wrguihw rtguiphwrtipgurhtgpwiuwrthgp wirughwrtuhg wrtuigh wrtguih wrpetguih wrtuipg hrwt
+Import files into Pandas
+Examine dataframes using df.head(), df.sample(8), df.info(), df.shape
+Get basic statistics with df.describe()
+Sorting and filtering data
+Retrieving data using index, iloc, loc
+Updating values and adding columns
 
 ANALYSIS OF A VEHICLE DATASET
+
+
 
 ANALYSIS OF FTSE DATA
 
