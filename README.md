@@ -11,17 +11,15 @@ The purpose was to track incoming prices to update the production costs and keep
 ANALYSIS OF A STOCK PRICE DATASET
 
 Import files into Pandas
-Examine dataframes using df.head(), df.sample(8), df.info(), df.shape
-Get basic statistics with df.describe()
-Sorting and filtering data
-Retrieving data using index, iloc, loc
-Updating values and adding columns
 
-Import files into Pandas
 Examine dataframes using df.head(), df.sample(8), df.info(), df.shape
+
 Get basic statistics with df.describe()
+
 Sorting and filtering data
+
 Retrieving data using index, iloc, loc
+
 Updating values and adding columns
 
 ANALYSIS OF A VEHICLE DATASET
