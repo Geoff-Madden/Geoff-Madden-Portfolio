@@ -59,27 +59,110 @@ acceleration for any car in df_car_index
 
 ANALYSIS OF FTSE DATA
 
-Clean the data
+About the Dataset
+In the following section, you will be analysing The Financial Times Stock Exchange 100
+(FTSE 100) Index data, pronounced, the 'Footsie hundred', is a share index of the 100
+companies listed on the London Stock Exchange with the highest market capitalisation.
 
-Use a function to changes column formats
+Importing the dataset
+First use the .read_csv() function to import the file FTSE100.csv from the data folder,
+assigning it to df DataFrame.
 
-Use for loops
+Tidy Data
+Starting from a copy of df , create a new DataFrame called clean_df with the following
+changes:
+Drop the row with a Ticker value of RDSA
+Drop the Strong Buy column
 
-Cleaning and Moderating a dataset
+Change Column Data Type
+Convert the values in the Mid-price (p) column to floats (keeping the column in the
+same place)
 
-Removal of superfluous data
+Format Change Values
+Part 1: Create a function called format_change which takes a string such as those in the
+Change column and does the following:
+1. If the last character is a % sign, remove it
+2. Convert the string to a float
+3. If that float is posiive, multiply it by 100
+4. Return the resulting float
 
-Filling missing values
+Part 2: Starting from a copy of price_df , create a new DataFrame called change_df
+with a new column called Change (%) :
+This should contain the result returned from the function created above when given the
+original Change column value as the argument
+
+Holding Summary
+Starting from the holding above and change_df , build a new dictionary containing the
+following keys and the appropriate values in the given data formats.
+
+Market Comparison
+Create a DataFrame called comparison_df with the following columns added to a copy of
+change_df :
+'Beat Market' - This should be a Boolean column with True for stocks where Change
+(%) exceeds that of the average market change
+'Buy Ratio' - This should equal the Buy column divided by the Brokers column
+
+Investigate
+We want to identify any companies which match a given set of rules, so that we can look into
+them further.
+We want to identify companies in watchlist that meet at least one of the following
+requirements:
+i) Any company in watchlist whose prices is equal to or lower than the given target price.
+ii) Any company in watchlist where Buy Ratio is 0.5 or greater.
+Using the watchlist below and comparison_df you defined, create a list of companies
+meeting the requirements, call this list companies_list . The list should only have the
+company names, not the price.
 
 ANALYSIS OF CORONAVIRUS DATA
 
-Concatenation
-
-Joining datasets
-
-Using the pandas .groupby() DataFrame method
-
-Using the pandas .agg() method
+1. Create a new DataFrame called countries which is the same as df but with the
+World row removed.
+2. Check the shape of your DataFrame to confirm that countries has one row fewer
+than df :
+3. Define a DataFrame based on the countries DataFrame, but which only contains
+the columns in cols (defined below) and assign this to a variable called
+countries_dr
+4. Using the countries DataFrame we created earlier, find the sum of
+total_tests for countries in Africa , assigning the result, as an integer, to
+africa_tests .
+5. How many countries in Africa have no value recorded for the number of
+total_tests column? Assign the result to africa_missing_test_data .
+6. How many countries have a higher value for total_tests than the United
+Kingdom ? Assign your answer to a variable called countries_more_tests .
+7. Create a DataFrame called beds_dr which is based on the countries
+DataFrame, but contains only the columns hospital_beds_per_thousand and
+total_deaths_per_million .
+8. Refer to the beds_dr DataFrame. What is the average
+total_deaths_per_million for entries in beds_dr where
+hospital_beds_per_thousand is greater than the mean?
+9. Refer to the beds_dr DataFrame. What is the average
+total_deaths_per_million for entries in beds_dr where
+hospital_beds_per_thousand is less than the mean?
+10. Refer to the countries DataFrame. Create a new DataFrame called
+no_new_cases which contains only rows from countries with zero new_cases .
+11. Refer to the no_new_cases DataFrame. Which country in no_new_cases
+DataFrame has had the highest number of total_cases ?
+12. Refer to the countries DataFrame. What is the sum of the population of all
+countries which have had zero total_deaths ?
+13. Create a function called country_metric which accepts the following three
+parameters:
+14. Use your function to collect the value for Vietnam for the metric
+aged_70_older , assigning the result to vietnam_older_70 .
+15. Create another function called countries_average , which accepts the following
+three parameters:
+a DataFrame "df" (which can be assumed to be such as countries )
+a list of countries "countries" (which can be assumed to all be found in the location
+column of the DataFrame)
+a string "metric" (which can be assumed to be a column (other than location ) which
+will be found in the DataFrame) . For instance, this string value can be
+life_expectancy .
+16. Use your countries_average function to find out the average
+life_expectancy of countries in the g7 list defined below. Assign the result to the
+variable g7_avg_life_expectancy .
+Q.17 Refer to the countries DataFrame. Find the country with lowest value for
+life_expectancy in the countries DataFrame, and create a string which is
+formatted as follows:
+'{country} has a life expectancy of {diff} years lower than the G7 average.'
 
 ANALYSIS OF ENERGY DATA
 
