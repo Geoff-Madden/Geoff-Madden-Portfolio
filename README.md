@@ -166,26 +166,178 @@ formatted as follows:
 
 ANALYSIS OF ENERGY DATA
 
-Scatter plots
+Data Collection
+Run the following cell to import and concatenate the datasets, assigning the result to
+DataFrame data :
 
-Histograms
+Data Processing
+1. First of all, let's tidy up the data DataFrame:
+Use the .rename() method to change the name of the level_0 column to Use
+Use the .fillna() method to update all NaN values to 0
+Use the .astype() method to convert all numerical columns ['Electricity',
+'Natural Gas', 'Oil', 'District Heating', 'Other'] to integers
+Use the .sum(axis=1) method to create a new column Total which contains the
+sum of all numerical columns
 
-Bar charts
+Data Grouping
+2. Create a new DataFrame called ss , using .groupby() to group DataFrame data
+by column 'Sub-Sector' , which contains the .sum() for each of the numerical (energy
+type) columns for each group:
+3. Create a new DataFrame called use , using .groupby() to group DataFrame data
+by column 'Use' , which contains the .sum() for each of the numerical (energy type)
+columns for each group:
+4. Create a new DataFrame called sector , using .groupby() to group DataFrame
+data by column 'Sector' , and make use of .agg() method on the Total column
+such that the new DataFrame has columns for 'sum' , 'mean' , and 'count' of the
+values in 'Total' :
 
-Box plots
-
-Pie charts
-
-Modifying plots using matplotlib
-
-Plotting with seaborn
+Data Visualisation
+5. Refer to the ss DataFrame.
+Create a histogram from the Electricity column of ss DataFrame using the .plot()
+method: ss['Electricity']
+6. Refer to the ss DataFrame.
+Create a scatter plot of Natural Gas vs Total , to see the relationship between the two
+columns of ss DataFrame.
+7. Refer to the sector DataFrame.
+Create a vertical bar chart of the 'sum' column of the sector DataFrame using the
+.plot() method: sector['sum']
+8. Refer to the given new_df_use DataFrame, which is identical to the use DataFrame
+but excludes the Total column (see below for the code).
+Create a horizontal and stacked bar chart from the new_df_use DataFrame, using the
+.plot() method:
 
 ANALYSIS OF TRAFFIC DATA
 
-Creating plots with Bokeh
-
-Pandas-Bokeh
+Exploratory Analysis
+1. Use .groupby() to create a DataFrame called year which groups df by 'year' and contains the columns
+['pedal_cycles', 'cars_and_taxis', 'all_hgvs'] , with the .sum() of each of these for each year:
+2. We want to look at the change over time of each of these forms of transport relative to the earliest values (year 1993).
+To do so, we will create an index. An index allows us to inspect the growth over time of a variable relative to some starting
+value (known as the base). By convention, this starting value is 100.0 . If the value of our variable doubles in some future
+time period, then the value of our index in that future time period would be 200.0 .
+create a new DataFrame called year_index as a .copy() of year
+for the index, select 1993 as the base year. This means that all values for 1993 should be equal to 100.0 . All
+subsequent years should be relative to that
+3. Having already imported and set up pandas_bokeh at the start of the notebook, we can now create a Bokeh plot of
+year_index DataFrame simply using the .plot() method and saving to variable yi_fig .
+4. Now that you have created your yi_fig variable using just .plot() method, make the following changes to the
+specified properties of yi_fig :
+Out[7]:
+pedal_cycles cars_and_taxis all_hgvs
+year
+1993 100.000000 100.000000 100.000000
+1994 100.229413 102.048581 102.143030
+1995 103.358260 103.851256 104.900983
+1996 101.675079 106.454909 108.160667
+1997 101.853694 108.192646 110.718300
+Out[8]: Figure(id = '1003', …)
+(http
+#add your code below
+year_index = year.copy()
+base = year_index.iloc[0]
+year_index = (year_index/base)*100
+year_index.head()
+#add your code below
+yi_fig = year_index.plot()
+yi_fig
+11/03/2024, 12:54 traffic - Jupyter Notebook
+https://kloud.edukate.ai/user/cs-20150/pak-15159/notebooks/traffic.ipynb 5/10
+change the text of the title to 'Change in road use by vehicle type over time'
+change the axis_label of the yaxis to 'Road use by distance (1993 = 100)'
+change the axis_label of the xaxis to 'Year'
+remove the toolbar by changing the .toolbar_location attribute to None
+change the legend location using legend.location attribute to 'top_left'
+change the ticker of the xaxis to use the values [1993, 1998, 2003, 2008, 2013, 2018]
+5. Create a DataFrame called green_2018 which:
+uses only the data from df for 2018
+groups this 2018 data by name
+contains the columns ['pedal_cycles', 'buses_and_coaches'] which have the .sum() for each group
+is sorted in descending order by the values for pedal_cycles
+divide all of the values in the resulting DataFrame by 1000000
+6. Use the .plot() method to create a horizontal, stacked bar chart from the green_2018 DataFrame, assigning it to
+green_bar variable
+7. Once you have created your green_bar variable (specifying only that it should be a stacked, horizontal bar plot),
+modify the following properties of your variable such that:
+the plot .width is 800 pixels
+the axis_label of the xaxis is 'Vehicle miles (millions)'
+the axis_label of the yaxis is 'Region'
+the text of the title is 'Regional travel by bicycle and bus in 2018'
+8. Create a DataFrame called length_motor as follows:
+group df by ['year', 'name'] with columns for ['total_link_length_miles', 'all_motor_vehicles']
+containing the .sum() of these:
+9. From length_motor , create a new DataFrame called reg_density which has a row index of year (i.e. one row
+for each year 1993-2018), and a column for each region (i.e. each unique value in name ), with the values within the
+DataFrame being the appropriate million_vehicle_miles_per_road_mile for that year in the given region:
+10. As we did earlier when creating year_index DataFrame, create a new DataFrame called density_index , which
+is the same as reg_density except the all values are relative to the 1993 value, which should equal 100 . Do not
+modify reg_density DataFrame.
+11. Assign to density_plot a figure created by using the .plot() method on density_index DataFrame, with
+the parameter hovertool=False .
+12. Make the following changes to density_plot :
+make the height and width both 800
+remove the toolbar by changing the .toolbar_location attribute to None
+change the legend location using legend.location attribute to 'top_left'
+change the ticker of the xaxis to use the values [1993, 1998, 2003, 2008, 2013, 2018]
 
 ANALYSIS OF A PROPERTY DATASET
 
+1. Refer to the df DataFrame. Create a new DataFrame called res containing only entries from df with
+a CLASSDESC of 'RESIDENTIAL' .
+2. Create a new DataFrame called res_16 containing only properties from res with BEDROOMS greater
+than 0 and less than 7.
+3. Use .groupby() on res_16 DataFrame to create a Series with an index of BEDROOMS and values of
+the .mean() of FULLBATHS for each number of BEDROOMS . Assign this series to a new variable called
+bed_bath :
+4. Refer to the bed_bath variable from above question, also note bed_bath is a pandas series data
+object.
+5. Refer to the res_16 DataFrame.
+Using the res_16['BEDROOMS'] Series calculate .value_counts() for each value in the series
+6. Refer to the beds variable from above question, also note beds is a pandas series data object.
+Use the .plot() method on beds to create a bar plot with kind parameter set to bar and title
+parameter set to Residential housing by number of bedrooms
+Save your line plot into a variable called beds_bar
+7. Create a function called zip_land which takes two arguments: a DataFrame (with the same columns
+as df ) and an integer (which it can be assumed will always be present in the PROPERTYZIP column of the
+DataFrame).
+8. Refer to the df DataFrame. Create a new DataFrame called sales which contains only entries from
+df with a SALEDESC of 'VALID SALE' .
+9. Add a column to sales called PITTSBURGH , containing boolean values of True where
+PROPERTYCITY equals PITTSBURGH and False if not.
+10. Create a seaborn .violinplot() with the following properties:
+x = 'PITTSBURGH'
+y = 'FAIRMARKETTOTAL'
+data = only entries from sales where sales['BEDROOMS'] == 1]
+11. Create a seaborn .regplot() with the following properties:
+x = 'SALEPRICE'
+y = 'FAIRMARKETTOTAL'
+data = only entries from sales where sales['GRADEDESC'] == 'EXCELLENT'
+
 CHOCOLATE RATINGS
+
+1. Load the dataset flavors_cacao.csv into a DataFrame called choco_df using the
+file path 'data/flavors_cacao.csv' and display the first 5 rows of the DataFrame
+using the .head() method.
+2. Using the .loc method select the column named rating from the DataFrame
+choco_df , Then filter the rows where the value in the column company_location is
+equal to 'U.K.' . Store the resulting data in a variable called uk_ratings .
+3. Using the .loc method select the column named rating from the DataFrame
+choco_df , Then filter the rows where the value in the column company_location is
+equal to 'Switzerland' . Store the resulting data in a variable called
+swiss_ratings .
+4. How many rows are in uk_ratings ?
+5. What is the mean rating of the chocolate produced by companies in the UK?
+6. What is the median rating of the chocolate produced by companies in the UK?
+7. What is the Standard Error of the Mean (SEM) of the ratings of the chocolates
+produced by UK companies?
+8. How many rows are in swiss_ratings ?
+9. What is the mean rating of the chocolate produced by Swiss companies?
+10. What is the median rating of the chocolate produced by Swiss companies?
+11. What is the Standard Error of the Mean (SEM) of the ratings of the chocolate
+produced by Swiss companies?
+12. Use box plots to compare ratings from the UK and Switzerland
+13 Create a function called find_outliers that accepts a DataFrame as input. The
+function will determine outliers in the rating column of the DataFrame using the
+specified criteria.
+14. Use your function find_outliers to determine the outliers in the choco_df
+data, first filtering the dataframe so it contains only ratings from the UK
+
