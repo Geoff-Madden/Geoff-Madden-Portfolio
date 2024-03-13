@@ -22,8 +22,7 @@ value in the final row?
 only the rows where Year == 2020 .
 9. Continuing with df_2020 , calculate the .mean() of Change % for entries where
 Weekday == Monday.
-10. Calculate the sum of the Volume column in df_2020 for entries where Month ==
-3.
+10. Calculate the sum of the Volume column in df_2020 for entries where Month == 3
 11. Using df_2020 , determine when Adj Close was the highest.
 12. Create a DataFrame called df_top_10 which contains the 10 entries from df with
 the highest positive Change % values.
