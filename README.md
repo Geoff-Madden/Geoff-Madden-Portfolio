@@ -34,45 +34,28 @@ additional column Variation % , which is equal to:
 with an additional column Traded Value , equal to:
 Volume * Adj Close
 
-  
-
-
-
-
-
-
-   
-
-
-Import files into Pandas
-
-Examine dataframes using df.head(), df.sample(8), df.info(), df.shape
-
-Get basic statistics with df.describe()
-
-Sorting and filtering data
-
-Retrieving data using index, iloc, loc
-
-Updating values and adding columns
-
 ANALYSIS OF A VEHICLE DATASET
 
-Dataset manipulation
-
-Create functions
-
-Column selection, row selection and masks
-
-Combining filtering and indexing
-
-String matching
-
-Sorting
-
-Modifying column data
-
-Removing columns
+1. What's the mean of the values in the weight column?
+2. What's the maximum value in the horsepower column?
+3. How many cars have a weight of equal to or greater than 3500 ?
+4. Create a new DataFrame with an additional column called ratio , which equals
+horsepower divided by weight
+5. Create a new DataFrame containing only cars with an origin of 'usa'
+6. What's the mean mpg of cars of origin usa ?
+7. How many cars of origin usa have 8 cylinders ?
+8. Create a new DataFrame (from the original df ) which does not contain the rows
+with a missing value
+9. What's the first (or only) mode value for horsepower in df_horsepower ?
+10. Create a DataFrame containing only cars with a horsepower greater than or equal
+to mode_hp in df_horsepower
+11. What percentage of the cars in df_high_hp have 8 cylinders ?
+12. Add a column called name_year to a copy of df , with each entry containing a
+string in the following format: name + ' - 19' + model_year
+13. On a copy of the df_name DataFrame, set the index of the DataFrame as the
+name_year column
+14. Create a function which takes name_year as the only parameter, and returns the
+acceleration for any car in df_car_index
 
 ANALYSIS OF FTSE DATA
 
