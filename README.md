@@ -9,6 +9,7 @@ I have redacted the original to remove all sensitive data.
 The purpose was to track incoming prices to automatically update the production costs allowing checks to keep the margins profitable. 
 
 CAMBRIDGE SPARK ASSIGNMENTS
+
 The following are a list of the questions answered in each assignment
 
 ANALYSIS OF A STOCK PRICE DATASET
@@ -186,25 +187,30 @@ Data Grouping
 2. Create a new DataFrame called ss , using .groupby() to group DataFrame data
 by column 'Sub-Sector' , which contains the .sum() for each of the numerical (energy
 type) columns for each group:
+
 3. Create a new DataFrame called use , using .groupby() to group DataFrame data
 by column 'Use' , which contains the .sum() for each of the numerical (energy type)
 columns for each group:
+
 4. Create a new DataFrame called sector , using .groupby() to group DataFrame
 data by column 'Sector' , and make use of .agg() method on the Total column
 such that the new DataFrame has columns for 'sum' , 'mean' , and 'count' of the
 values in 'Total' :
 
 Data Visualisation
+
 5. Refer to the ss DataFrame.
 Create a histogram from the Electricity column of ss DataFrame using the .plot()
 method: ss['Electricity']
-6. Refer to the ss DataFrame.
+
+7. Refer to the ss DataFrame.
 Create a scatter plot of Natural Gas vs Total , to see the relationship between the two
 columns of ss DataFrame.
-7. Refer to the sector DataFrame.
+
+9. Refer to the sector DataFrame.
 Create a vertical bar chart of the 'sum' column of the sector DataFrame using the
 .plot() method: sector['sum']
-8. Refer to the given new_df_use DataFrame, which is identical to the use DataFrame
+10. Refer to the given new_df_use DataFrame, which is identical to the use DataFrame
 but excludes the Total column (see below for the code).
 Create a horizontal and stacked bar chart from the new_df_use DataFrame, using the
 .plot() method:
