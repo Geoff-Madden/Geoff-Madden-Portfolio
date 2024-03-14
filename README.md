@@ -1,12 +1,12 @@
 COSTINGS ANALYSIS    
 
 This was the task I was given to do that sparked my interest in data analytics and is described in my CV.
-I have redacted to original to remove all the sensitive data.
-64 suppliers prices were accessed by 420 products using extended versions of vlookup to access multiple pages of data.
+I have redacted the original to remove all sensitive data.
+64 suppliers prices were accessed by 420 products using extended versions of vlookup to access multiple pages of data containing up t0 128000 prices.
 
 =IFERROR(VLOOKUP(H7,INDIRECT("'"&INDEX(Supplier_List,MATCH(1,--(COUNTIF(INDIRECT("'"&Supplier_List&"'!$A$2:$s$2000"),H7)>0),0))&"'!$A$2:$s$2000"),2,FALSE),"Not Found")
 
-The purpose was to track incoming prices to update the production costs and keep the margins profitable. 
+The purpose was to track incoming prices to automatically update the production costs allowing checks to keep the margins profitable. 
 
 ANALYSIS OF A STOCK PRICE DATASET
 
