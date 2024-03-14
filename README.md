@@ -352,3 +352,6 @@ specified criteria.
 14. Use your function find_outliers to determine the outliers in the choco_df
 data, first filtering the dataframe so it contains only ratings from the UK
 
+ADDITIONAL WORK
+
+This folder contains data analysis tasks as investigations
