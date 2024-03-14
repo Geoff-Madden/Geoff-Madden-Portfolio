@@ -8,6 +8,9 @@ I have redacted the original to remove all sensitive data.
 
 The purpose was to track incoming prices to automatically update the production costs allowing checks to keep the margins profitable. 
 
+CAMBRIDGE SPARK ASSIGNMENTS
+The following are a list of the questions answered in each assignment
+
 ANALYSIS OF A STOCK PRICE DATASET
 
 1. What's the mean of the values in the Adj Close column?
