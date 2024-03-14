@@ -1,0 +1,135 @@
+company,species,REF,review_year,cocoa_p,company_location,rating,country
+Akesson's (Pralus),"Bali (west), Sukrama Family, Melaya area",636,2011,0.75,Switzerland,3.75,Indonesia
+Akesson's (Pralus),"Madagascar, Ambolikapiky P.",502,2010,0.75,Switzerland,2.75,Madagascar
+Akesson's (Pralus),"Monte Alegre, D. Badero",508,2010,0.75,Switzerland,2.75,Brazil
+Artisan du Chocolat,"Trinidad, Heritage, Limited ed.",1193,2013,0.72,U.K.,3.25,Trinidad
+Artisan du Chocolat,"Colombia, Casa Luker",947,2012,0.72,U.K.,3.75,Colombia
+Artisan du Chocolat,Haiti,729,2011,0.72,U.K.,4,Haiti
+Artisan du Chocolat,Panama,745,2011,0.72,U.K.,2.75,Panama
+Artisan du Chocolat,Venezuela,486,2010,1,U.K.,1.75,Venezuela
+Artisan du Chocolat,Jamaica,531,2010,0.72,U.K.,3.75,Jamaica
+Artisan du Chocolat,Costa Rica,600,2010,0.72,U.K.,3.25,Costa Rica
+Artisan du Chocolat,Ba Ria Vung Tau Province,600,2010,0.72,U.K.,3.25,Vietnam
+Artisan du Chocolat,Bali,600,2010,0.72,U.K.,3.5,Indonesia
+Artisan du Chocolat,"Ocumare, Venezuela",355,2009,0.75,U.K.,2.5,Venezuela
+Artisan du Chocolat,Java,355,2009,0.72,U.K.,2.75,Indonesia
+Artisan du Chocolat,Brazil Rio Doce,363,2009,0.72,U.K.,1.75,Brazil
+Artisan du Chocolat,Madagascar,363,2009,0.8,U.K.,3,Madagascar
+Artisan du Chocolat,Peru,363,2009,0.75,U.K.,3,Peru
+Artisan du Chocolat,Dominican Republic,363,2009,0.72,U.K.,3.25,Dominican Republic
+Artisan du Chocolat,Congo,300,2008,0.72,U.K.,3.75,Congo
+Artisan du Chocolat (Casa Luker),"Orinoqua Region, Arauca",1181,2013,0.72,U.K.,2.75,Colombia
+Beau Cacao,"Asajaya E, NW Borneo, b. #132/4500",1948,2017,0.73,U.K.,3,Malaysia
+Beau Cacao,"Serian E., NW Borneo, b. #134/3800",1948,2017,0.72,U.K.,3.25,Malaysia
+Beschle (Felchlin),Madagascar,636,2011,0.64,Switzerland,3,Madagascar
+Beschle (Felchlin),Maracaibo,636,2011,0.88,Switzerland,3,Venezuela
+Beschle (Felchlin),"Indigena Amazonia, Grand Cru, Quizas",636,2011,0.72,Switzerland,3.5,Venezuela
+Beschle (Felchlin),Ecuador,636,2011,0.72,Switzerland,4,Ecuador
+Beschle (Felchlin),"Carenero S., Barlovento, Grand Cru",508,2010,0.7,Switzerland,3.25,Venezuela
+Beschle (Felchlin),"Porcelana, Premier Cru, Quizas No. 1",508,2010,0.74,Switzerland,3.25,Venezuela
+Beschle (Felchlin),"Java, Grand Cru",508,2010,0.64,Switzerland,3.5,Indonesia
+Beschle (Felchlin),"Ocumare, Premier Cru, Quizas No. 2",508,2010,0.72,Switzerland,3.5,Venezuela
+Black River (A. Morin),Blue Mountain Region,1331,2014,0.7,U.K.,2.75,Jamaica
+Chocablog,Ecuador,1454,2015,0.7,U.K.,3.25,Ecuador
+Chocolarder,Peru,1482,2015,0.65,U.K.,2.5,Peru
+Chocolarder,Peru + nibs,1482,2015,0.65,U.K.,2.75,Peru
+Chocolarder,Dominican Republic,1514,2015,0.8,U.K.,2.5,Dominican Republic
+Damson,Robson Estate,1610,2015,0.7,U.K.,3,Trinidad
+Damson,Los Rios,1610,2015,0.7,U.K.,3.5,Ecuador
+Damson,Crayfish Bay aka Non Pariel Estate,1666,2015,0.7,U.K.,2.25,Grenada
+Damson,O'Payo,1666,2015,0.7,U.K.,2.75,Nicaragua
+Doble & Bignall,Puerto Cabello,1688,2015,0.85,U.K.,3,Venezuela
+Doble & Bignall,"Panama, Raven",1371,2014,0.72,U.K.,3.25,Panama
+Doble & Bignall,"Puerto Cabello, Mantuano",1371,2014,0.72,U.K.,3.25,Venezuela
+Doble & Bignall,Johe,1407,2014,0.72,U.K.,3.5,Nicaragua
+Dormouse,Non Pariel Estate,1880,2016,0.75,U.K.,2.75,Grenada
+Dormouse,"Rio Caribe, Batch 7",1672,2015,0.7,U.K.,2.5,Venezuela
+Dormouse,"Colombia, Batch 9",1676,2015,0.8,U.K.,2.75,Colombia
+Dormouse,"Madagascar, Batch 8",1676,2015,0.77,U.K.,2.75,Madagascar
+Duffy's,"Rio Dulce, Xoco",1662,2015,0.7,U.K.,4,Guatemala
+Duffy's,"Chuno, Xoco",1331,2014,0.7,U.K.,3.5,Nicaragua
+Duffy's,"Rico Rugoso, Xoco",1331,2014,0.76,U.K.,3.75,Nicaragua
+Duffy's,Ocumare,923,2012,0.72,U.K.,3.75,Venezuela
+Duffy's,"Indio Rojo, Xoco",623,2011,0.72,U.K.,3.75,Honduras
+Duffy's,Dominican Republic,661,2011,0.65,U.K.,3.5,Dominican Republic
+Duffy's,"Bocas del Toro, Tierra Oscura",697,2011,0.72,U.K.,3,Panama
+Duffy's,"Nicaliso, Xoco",697,2011,0.71,U.K.,3.25,Nicaragua
+Duffy's,Ocumare,765,2011,0.71,U.K.,3.5,Venezuela
+Duffy's,Panama,516,2010,0.7,U.K.,3.5,Panama
+Duffy's,"Corazon del Ecuador, Calceta beans",516,2010,0.72,U.K.,3.75,Ecuador
+Duffy's,Star of Ecuador,523,2010,0.7,U.K.,2.5,Ecuador
+Duffy's,Star of Peru,523,2010,0.7,U.K.,3.75,Peru
+Felchlin,Grenada,494,2010,0.58,Switzerland,3.5,Grenada
+Felchlin,Supremo- SF,105,2006,0.62,Switzerland,2, 
+Felchlin,Elvesia P.,105,2006,0.74,Switzerland,3,Dominican Republic
+Felchlin,"Madagascar, Grand Cru",48,2006,0.64,Switzerland,3,Madagascar
+Felchlin,Maracaibo Clasificado,48,2006,0.65,Switzerland,3,Venezuela
+Felchlin,Arriba,48,2006,0.72,Switzerland,3.5,Ecuador
+Felchlin,"Alto Beni, Cru Savage",56,2006,0.68,Switzerland,4,Bolivia
+Forever Cacao,Rio Eni,1267,2014,0.72,U.K.,2.75,Peru
+Green & Black's (ICAM),Dark,15,2006,0.7,U.K.,2.5, 
+Hotel Chocolat,"Pepiniere, single Cote",1654,2015,0.7,U.K.,2.75,St. Lucia
+Hotel Chocolat,"Marcial, single Cote, 2012",1030,2013,0.7,U.K.,4,St. Lucia
+Hotel Chocolat,"Island Growers, 2012, 120hr c.",1113,2013,1,U.K.,1.75,St. Lucia
+Hotel Chocolat (Coppeneur),Trinidad,1038,2013,0.75,U.K.,3,Trinidad
+Hotel Chocolat (Coppeneur),Mekong Delta & Dong Nai,1038,2013,0.8,U.K.,3.5,Vietnam
+Hotel Chocolat (Coppeneur),"Los Rios, H. Iara",1065,2013,0.9,U.K.,3,Ecuador
+Hotel Chocolat (Coppeneur),"Somia Plantation, Akesson, 2012",1065,2013,0.72,U.K.,3,Madagascar
+Hotel Chocolat (Coppeneur),"Los Rios, H. Iara, 2012",1065,2013,0.82,U.K.,3.5,Ecuador
+Hotel Chocolat (Coppeneur),"Chanchamayo, Pichanadi, 2012, 60hr c.",1109,2013,1,U.K.,2.75,Peru
+Hotel Chocolat (Coppeneur),"Los Rios, H. Iara, 2012, 120hr c.",1113,2013,1,U.K.,2.5,Ecuador
+Hotel Chocolat (Coppeneur),"Conacado, 2012, 120hr c.",1113,2013,1,U.K.,2.75,Dominican Republic
+Hotel Chocolat (Coppeneur),Sambirano,809,2012,0.66,U.K.,3.5,Madagascar
+Hotel Chocolat (Coppeneur),"Los Rios, H. Iara, 96hr c.",623,2011,0.8,U.K.,3,Ecuador
+Hotel Chocolat (Coppeneur),"Island Growers, 120hr c.",623,2011,0.65,U.K.,3,St. Lucia
+Hotel Chocolat (Coppeneur),"Island Growers, 96hr c.",623,2011,0.65,U.K.,3.25,St. Lucia
+Hotel Chocolat (Coppeneur),Ecuador,552,2010,0.7,U.K.,2.75,Ecuador
+Hotel Chocolat (Coppeneur),Santo Domingo,552,2010,0.7,U.K.,3,Dominican Republic
+Hotel Chocolat (Coppeneur),Chuao,600,2010,0.7,U.K.,2.75,Venezuela
+Hotel Chocolat (Coppeneur),St. Lucia,245,2008,0.72,U.K.,3,St. Lucia
+Hotel Chocolat (Coppeneur),Uganda,296,2008,0.8,U.K.,2.5,Uganda
+Hotel Chocolat (Coppeneur),Tanzania,296,2008,0.75,U.K.,2.75,Tanzania
+Hotel Chocolat (Coppeneur),Uba Budo,300,2008,0.72,U.K.,3,Sao Tome
+Idilio (Felchlin),"Chuao, Venezuela",1085,2013,0.72,Switzerland,3.75,Venezuela
+Idilio (Felchlin),Coopertiva Amazona,725,2011,0.72,Switzerland,3.75,Venezuela
+Idilio (Felchlin),"Sur del Lago, Amiari Meridena, Zulia, 48hr c.",725,2011,0.72,Switzerland,3.75,Venezuela
+Idilio (Felchlin),"Choroni, Finca Torres, 48hr c.",729,2011,0.72,Switzerland,3.25,Venezuela
+Idilio (Felchlin),"Ocumare, H. Cata, 48hr c.",733,2011,0.72,Switzerland,3.75,Venezuela
+Idilio (Felchlin),"Porcelana, Zulia",733,2011,0.74,Switzerland,4,Venezuela
+Idilio (Felchlin),"Ocumare, H. Cata, w/ nibs",737,2011,0.72,Switzerland,3.5,Venezuela
+Idilio (Felchlin),"Carenero Superior, Urrutia, Barlovento",737,2011,0.7,Switzerland,4,Venezuela
+Idilio (Felchlin),Coopertiva Amazona w/ nibs,737,2011,0.72,Switzerland,4,Venezuela
+Idilio (Felchlin),"Sur del Lago, Amiari Meridena, Zulia, w/ nibs",737,2011,0.72,Switzerland,4,Venezuela
+Lindt & Sprungli,Excellence (US Version),157,2007,0.85,Switzerland,3, 
+Original Beans (Felchlin),Papua Kerafat,1438,2014,0.68,Switzerland,2.75,Papua New Guinea
+Original Beans (Felchlin),"Grand Cru Blend No.1, 5 yr. Anniversary Ed",1442,2014,0.8,Switzerland,4.5, 
+Original Beans (Felchlin),"Alto Beni, Wild Harvest, Itenez R. 24hr c.",733,2011,0.66,Switzerland,3.75,Bolivia
+Original Beans (Felchlin),"D.R. Congo, Cru Virunga",331,2009,0.7,Switzerland,3,Congo
+Original Beans (Felchlin),"Piura, Apotequil, ""Porcelana"" 72hr c.",341,2009,0.75,Switzerland,3,Peru
+Original Beans (Felchlin),"Alto Beni, Wild Harvest, Itenez R., 60hr c.",341,2009,0.68,Switzerland,3.25,Bolivia
+Paul Young,"Madagascar, w/ shell",1271,2014,0.73,U.K.,2.25,Madagascar
+Paul Young,"Madagascar, w/ shell",1271,2014,0.64,U.K.,4.75,Madagascar
+Pump Street Bakery,"Chocoan Rainforest, Teroro Escondido, ESM",1872,2016,0.77,U.K.,3.5,Ecuador
+Pump Street Bakery,"Crayfish Bay Estate, 2014",1502,2015,0.7,U.K.,3.5,Grenada
+Pump Street Bakery,"Akesson's, batch 4411",1530,2015,0.74,U.K.,3.5,Madagascar
+Pump Street Bakery,Honduras,1688,2015,0.8,U.K.,2.75,Honduras
+Pump Street Bakery,"Patanemo Vil., Carabobo State, Tisano family",1223,2014,0.75,U.K.,2.75,Venezuela
+Pump Street Bakery,Guantupi River,1223,2014,0.75,U.K.,3,Ecuador
+Pump Street Bakery,"Akessons Estate, Sambirano, Ambanja",1223,2014,0.72,U.K.,3.25,Madagascar
+Pump Street Bakery,Guantupi River,1227,2014,0.85,U.K.,2.75,Ecuador
+Rococo (Grenada Chocolate Co.),"Gru Grococo, St. Andrews",923,2012,0.66,U.K.,3.5,Grenada
+Seaforth,Dominican Republic,1658,2015,0.7,U.K.,2.75,Domincan Republic
+Seaforth,Grenada,1658,2015,0.7,U.K.,2.75,Grenada
+Solkiki,"Maranon, Fortunato No. 4",1840,2016,0.68,U.K.,2.75,Peru
+Solkiki,"Castillo, Hispaniola, unroasted",1840,2016,0.85,U.K.,2.75,Domincan Republic
+Sprungli (Felchlin),Alto Beni,1057,2013,0.7,Switzerland,3,Bolivia
+Stella (aka Bernrain),"Bahia, Agri-Forestal Plantation, 2010",859,2012,0.68,Switzerland,2.75,Brazil
+Stella (aka Bernrain),India,729,2011,0.72,Switzerland,4.25,India
+Willie's Cacao,Los Llanos,1848,2016,0.7,U.K.,4,Colombia
+Willie's Cacao,Los Llanos,1227,2014,0.88,U.K.,3,Colombia
+Willie's Cacao,"Java, Indonesian Black",1109,2013,1,U.K.,2.25,Indonesia
+Willie's Cacao,Sambirano,593,2010,0.71,U.K.,1.5,Madagascar
+Willie's Cacao,Hacienda Las Trincheras,593,2010,0.72,U.K.,3.5,Venezuela
+Willie's Cacao,Java,593,2010,0.69,U.K.,5,Indonesia
+Willie's Cacao,San Martin,457,2009,0.7,U.K.,3,Peru
+Willie's Cacao,Rio Caribe,457,2009,0.72,U.K.,3.25,Venezuela
