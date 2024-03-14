@@ -83,6 +83,7 @@ Convert the values in the Mid-price (p) column to floats (keeping the column in 
 same place)
 
 Format Change Values
+
 Part 1: Create a function called format_change which takes a string such as those in the
 Change column and does the following:
 1. If the last character is a % sign, remove it
