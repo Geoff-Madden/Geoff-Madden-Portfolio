@@ -185,6 +185,7 @@ Use the .sum(axis=1) method to create a new column Total which contains the
 sum of all numerical columns
 
 Data Grouping
+
 2. Create a new DataFrame called ss , using .groupby() to group DataFrame data
 by column 'Sub-Sector' , which contains the .sum() for each of the numerical (energy
 type) columns for each group:
