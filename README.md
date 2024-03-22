@@ -12,23 +12,28 @@ CAMBRIDGE SPARK ASSIGNMENTS
 
 The following assignments were completed successfully
 
-ANALYSIS OF A STOCK PRICE DATASET
+Analysis of a Stock Price Dataset
 
-ANALYSIS OF A VEHICLE DATASET
+Analysis of a Vehicle Dataset
 
-ANALYSIS OF FTSE DATA
+Analysis of FTSE Data
 
-ANALYSIS OF CORONAVIRUS DATA
+Analysis of Coronavirus Data
 
-ANALYSIS OF ENERGY DATA
+Analysis of Energy Data
 
-ANALYSIS OF TRAFFIC DATA
+Analysis of Traffic Data
 
-ANALYSIS OF A PROPERTY DATASET
+Analysis of a Property Dataset
 
-CHOCOLATE RATINGS
-
+Chocolate Ratings
 
 PORTFOLIO PROJECTS
 
 These tasks demonstrate the skills acquired written as reports
+
+Choosing a Second Hand Car
+
+Marketing a Treadmill
+
+Reasons to choose Netflix
