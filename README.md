@@ -36,4 +36,4 @@ Choosing a Second Hand Car
 
 Marketing a Treadmill
 
-Reasons to choose Netflix
+Analysis of a Netflix dataset in collaberation
